@@ -1,0 +1,34 @@
+{
+  "options": {
+    "paths": {
+      "fonts": "/data/fonts",
+      "sprites": "/build/style",
+      "styles": "/build/style"
+    }
+  },
+  "styles": {
+    "OSM OpenMapTiles": {
+      "style": "style.json",
+      "tilejson": {
+        "type": "overlay"
+      }
+    },
+    "Dark Matter": {
+      "style": "dark_matter.json",
+      "tilejson": {
+        "type": "overlay"
+      }
+    },
+    "Dark Matter V2": {
+      "style": "dark_v2.json",
+      "tilejson": {
+        "type": "overlay"
+      }
+    }
+  },
+  "data": {
+    "openmaptiles": {
+      "mbtiles": "/data/tiles.mbtiles"
+    }
+  }
+}
